@@ -2,7 +2,7 @@ import React from 'react';
 import { Tabs } from 'expo-router';
 import { Ionicons } from '@expo/vector-icons';
 import { View, Text, StyleSheet } from 'react-native';
-import { useAuth } from '../../src/context/AuthContext';
+import { useAuth } from '@/src/context/AuthContext';
 
 export default function TabLayout() {
   const { user } = useAuth();

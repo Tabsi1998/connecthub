@@ -14,7 +14,7 @@ import {
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { Ionicons } from '@expo/vector-icons';
 import { useRouter } from 'expo-router';
-import api from '../../src/services/api';
+import api from '@/src/services/api';
 
 const GROUP_TYPES = [
   { value: 'allgemein', label: 'Allgemein', icon: 'chatbubbles', color: '#64748B' },

@@ -16,7 +16,7 @@ import { Ionicons } from '@expo/vector-icons';
 import { useRouter } from 'expo-router';
 import * as DocumentPicker from 'expo-document-picker';
 import * as FileSystem from 'expo-file-system';
-import api from '../../src/services/api';
+import api from '@/src/services/api';
 
 export default function UploadDocument() {
   const router = useRouter();
